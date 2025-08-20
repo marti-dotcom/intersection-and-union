@@ -110,37 +110,4 @@ if __name__ == '__main__':  #Makes sure the main() function is only done if the 
     main()
 
 
-#python mycode.py union main.bed.txt unionsecondfile.bed.txt union_results.bed.txt
-#cat union_results.bed.txt
-
-#python mycode.py isec main.bed.txt intersectionsecondfile.bed.txt isec_results.bed.txt
-#cat isec_results.bed.txt
-
-# The code processes two BED4 files and saves the intervals results as tuples in a list. 
-# Each tuple has four elements: the chromosome number, start position, end position, 
-# and feature name. This tuple structure allows to conveniently group these four parts of data 
-# together. The list of tuples is then used to store the intervals from each BED4 file for later 
-# usage in the union and intersection processes. 
-# The main logic of the code allows for flexibility to perform either a union or an intersection 
-# operation on two BED4 files.
-
-# The find_unions function handles the union process, merging intervals from both BED4 files. 
-# If an interval with the same name is in both files and is located on the same chromosome, 
-# the function modifies the start and end positions to represent the complete range of both 
-# intervals. If the intervals occur on separate chromosomes, they are rejected as invalid.
-# The intervals are arranged by name in a dictionary. The intersection operation, 
-# in the find_intersections function, detects overlapping intervals. 
-# It analyses each pair of intervals from both files, determining if they are on the same chromosome 
-# and if their start and end positions overlap. If an overlap is discovered, 
-# it calculates the intersecting region and puts it in a new list of tuples.
-
-# The code does not employ any complicated algorithms; instead, it processes data using looping and 
-# comparison. The use of basic data structures like as lists and dictionaries makes the code easier 
-# to understand and removes unnecessary complexity. The code also contains error handling, 
-# which skips incorrect or invalid lines in input files and displays error messages when necessary. 
-# With argparse, the script provides a simple command-line interface that allows choosing
-# the kind of operation required (union or intersection) as well as the necessary input/output files, 
-# making the script adaptable for various BED4 files and operations.
-
-
 
