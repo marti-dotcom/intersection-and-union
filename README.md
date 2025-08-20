@@ -8,7 +8,7 @@ Designed for clarity, explicit edge-case handling, and easy reuse in bioinformat
 - **Operations:** `union` (merge by feature name within a chromosome), `isec` (pairwise interval overlap per chromosome)
 - **Python:** 3.8+
 
-> Note: BED is typically **0-based, half-open**; chromosome labels must match exactly (e.g., `chr1` vs `1` are different).
+> Please note: BED is typically **0-based, half-open**; chromosome labels must match exactly (e.g., `chr1` vs `1` are different).
 
 ---
 
@@ -59,7 +59,6 @@ cat isec_results.bed.txt
 python mycode.py -h
 ```
 
----
 ---
 
 ## Features included
@@ -145,10 +144,9 @@ cat union_results.bed.txt
 cat isec_results.bed.txt
 ```
 
-
 ---
 
-**Project Structure**
+# Project Structure
 ```
 .
 ├── mycode.py
@@ -176,12 +174,12 @@ Lines beginning with # are treated as comments and ignored.
 
 ---
 
-**Contact**
+# Contact
 
 Developed by **Martina Debnath** 
 
-Thank you for using my intersection-and-union script <3 
-Feel free to reach out for collaboration or feedback.
+Thank you for using my intersection-and-union CLI <3 
+Feel free to reach out for collaboration.
 
 GitHub: https://github.com/marti-dotcom
 
