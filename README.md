@@ -176,9 +176,10 @@ Lines beginning with # are treated as comments and ignored.
 
 # Contact
 
-Developed by **Martina Debnath** 
+Developed by **Martina Debnath** | MSc Genetics and Multiomics in Medicine | UCL
 
 Thank you for using my intersection-and-union CLI <3 
+
 Feel free to reach out for collaboration.
 
 GitHub: https://github.com/marti-dotcom
