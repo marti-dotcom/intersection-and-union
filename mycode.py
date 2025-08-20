@@ -1,3 +1,15 @@
+"""
+Intersection & Union of BED4 Intervals (CLI)
+
+Author: Martina Debnath
+GitHub: https://github.com/marti-dotcom
+License: MIT
+"""
+__author__ = "Martina Debnath"
+__version__ = "1.0.0"
+__license__ = "MIT"
+
+
 import argparse
 import os 
 import sys  
