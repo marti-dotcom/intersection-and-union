@@ -148,3 +148,9 @@ A **BED4** file has four columns (whitespace separated):
 4. name – feature label (optional; defaults to . in this tool)
 
 Lines beginning with # are treated as comments and ignored.
+
+---
+**Contact**
+Developed by **Martina Debnath**
+
+GitHub: https://github.com/marti-dotcom
